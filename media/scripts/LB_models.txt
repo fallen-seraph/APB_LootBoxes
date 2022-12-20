@@ -1,0 +1,75 @@
+module LootBoxes
+{
+    model LootBox_Knight
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_Knight,
+		scale = 0.1,
+	}  
+    model LootBox_Rifle
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_Rifle,
+		scale = 0.1,
+	}
+	model LootBox_Pistol
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_Pistol,
+		scale = 0.1,
+	}
+	model LootBox_Shotgun
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_Shotgun,
+		scale = 0.1,
+	}
+	model LootBox_SMG
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_SMG,
+		scale = 0.1,
+	}
+	model LootBox_RifleAmmo
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_RifleAmmo,
+		scale = 0.1,
+	}
+	model LootBox_PistolAmmo
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_PistolAmmo,
+		scale = 0.1,
+	}
+	model LootBox_ShotgunAmmo
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_ShotgunAmmo,
+		scale = 0.1,
+	}
+	model LootBox_Halloween
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_Halloween,
+		scale = 0.1,
+	}
+	model LootBox_Christmas
+	{
+		mesh = WorldItems/LootBox,
+		texture = WorldItems/LootBox_Christmas,
+		scale = 0.1,
+	}
+	model LootBox_Christmas_Empty
+	{
+		mesh = WorldItems/LootBox_Open,
+		texture = WorldItems/LootBox_Christmas,
+		scale = 0.1,
+	}
+	model LootBox_Empty
+	{
+		mesh = WorldItems/LootBox_Open,
+		texture = WorldItems/LootBox_Open,
+		scale = 0.1,
+	}
+}

@@ -1,0 +1,162 @@
+module LootBoxes {
+    imports
+    {
+        Base
+    }
+        
+    item Knight_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 8,
+        Type = Normal,
+        Icon = LootBox_Knight,
+        DisplayName = Knight Loot Box,
+        LootBoxID = knight_box,
+        WorldStaticModel = LootBox_Knight,
+        Tags = LootBox,
+    }
+
+    item Pistol_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_Pistol,
+        DisplayName = Pistol Loot Box,
+        LootBoxID = pistol_box,
+        WorldStaticModel = LootBox_Pistol,
+        Tags = LootBox,
+    }
+
+    item Rifle_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_Rifle,
+        DisplayName = Rifle Loot Box,
+        LootBoxID = rifle_box,
+        WorldStaticModel = LootBox_Rifle,
+        Tags = LootBox,
+    }
+
+    item Shotgun_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_Shotgun,
+        DisplayName = Shotgun Loot Box,
+        LootBoxID = shotgun_box,
+        WorldStaticModel = LootBox_Shotgun,
+        Tags = LootBox,
+    }
+
+    item SMG_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_SMG,
+        DisplayName = SMG Loot Box,
+        LootBoxID = smg_box,
+        WorldStaticModel = LootBox_SMG,
+        Tags = LootBox,
+    }
+
+    item Pistol_Ammo_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_PistolAmmo,
+        DisplayName = Pistol Ammo Loot Box,
+        LootBoxID = pistol_ammo_box,
+        WorldStaticModel = LootBox_PistolAmmo,
+        Tags = LootBox,
+    }
+
+    item Shotgun_Ammo_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_ShotgunAmmo,
+        DisplayName = Shotgun Ammo Loot Box,
+        LootBoxID = shotgun_ammo_box,
+        WorldStaticModel = LootBox_ShotgunAmmo,
+        Tags = LootBox,
+    }
+
+    item Rifle_Ammo_Loot_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_RifleAmmo,
+        DisplayName = Rifle Ammo Loot Box,
+        LootBoxID = rifle_ammo_box,
+        WorldStaticModel = LootBox_RifleAmmo,
+        Tags = LootBox,
+    }
+
+    item Halloween_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_Halloween,
+        DisplayName = Halloween Box,
+        LootBoxID = halloween_box,
+        WorldStaticModel = LootBox_Halloween,
+        Tags = LootBox,
+    }
+
+    item Christmas_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_Blank,
+        DisplayName = Christmas Box,
+        LootBoxID = christmas_box,
+        WorldStaticModel = LootBox_Christmas,
+        Tags = ChristmasLootBox,
+    }
+
+    item Book_Box
+    {
+        DisplayCategory = LootBoxes,
+        Weight = 5,
+        Type = Normal,
+        Icon = LootBox_Blank,
+        DisplayName = Book Box,
+        LootBoxID = book_box,
+        WorldStaticModel = LootBox_Christmas,
+        Tags = LootBox,
+    }
+
+    item Empty_Christmas_Box
+    {
+        DisplayCategory = LootBoxes,
+        Type	=	Container,
+        WeightReduction	=	5,
+        Weight	=	1,
+        Capacity	=	30,
+        Icon    = LootBox_Blank,
+        DisplayName = Empty Christmas Box,
+        WorldStaticModel = LootBox_Christmas_Empty,
+    }
+
+    item Empty_Box
+    {
+        DisplayCategory = LootBoxes,
+        Type	=	Container,
+        WeightReduction	=	5,
+        Weight	=	1,
+        Capacity	=	30,
+        Icon    = LootBox_Blank,
+        DisplayName = Empty Box,
+        WorldStaticModel = LootBox_Empty,
+    }
+}

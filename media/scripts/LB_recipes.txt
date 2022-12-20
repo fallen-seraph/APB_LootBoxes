@@ -1,0 +1,16 @@
+module LootBoxes {
+    recipe Open Box
+    {
+       [Recipe.GetItemTypes.LootBox],
+       Result: Empty_Box,
+       Time: 50.0,
+       OnCreate:Recipe.OnCreate.LB_OpenBox,
+    }
+    recipe Open Christmas Box
+    {
+       [Recipe.GetItemTypes.ChristmasLootBox],
+       Result: Empty_Christmas_Box,
+       Time: 50.0,
+       OnCreate:Recipe.OnCreate.LB_OpenBox,
+    } 
+}
